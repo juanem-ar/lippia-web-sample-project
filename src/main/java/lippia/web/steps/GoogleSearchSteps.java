@@ -7,6 +7,8 @@ import lippia.web.services.GoogleSearchResultService;
 
 public class GoogleSearchSteps extends PageSteps {
 
+    //Este mensaje tiene por objetivo efectuar un cambio en el codigo para realizar la tarea 2 de advanced automation
+
     @Given("^The client is on google page$")
     public void home() {
         GoogleHomeService.navegarWeb();
